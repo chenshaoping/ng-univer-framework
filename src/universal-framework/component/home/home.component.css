@@ -1,0 +1,37 @@
+.home-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px #edeff1 solid;
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.home-header{
+    width:100%;
+    height:100%;
+    background-color: #fafcfd;
+}
+.home-body{
+    width:100%;
+    height:100%;
+}
+.home-header-content{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-flow: row;
+}
+.home-header-logo{
+    height:100%;
+    width:150px;
+    min-height: 90px;
+    background-image: url(../../../assets/img/logo.png);
+    background-size: 100%;
+}
+.home-header-function{
+    height:100%;
+}
